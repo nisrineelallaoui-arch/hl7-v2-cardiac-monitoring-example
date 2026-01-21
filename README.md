@@ -1,7 +1,7 @@
 # HL7 v2 – Remote Cardiac Monitoring Example
 
 This repository contains a simple, end-to-end example of how HL7 v2 messages
-are used in a realistic hospital workflow.
+are used in a hospital workflow.
 
 The project follows a single outpatient cardiology case and focuses on how
 patient data, clinical orders, and diagnostic results move between systems.
@@ -33,17 +33,6 @@ Behind the scenes, hospital systems exchange information to:
 Each message builds on the previous one, keeping patient and order context
 aligned across systems.
 
----
-
-## Contents of the Repository
-
-- A Jupyter notebook that walks through the full workflow step by step  
-- Real HL7 v2 messages generated for the scenario  
-
-The notebook shows the complete “happy path” flow using realistic values
-and identifiers.
-
----
 
 ## Notes
 
